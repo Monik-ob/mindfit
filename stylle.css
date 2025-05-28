@@ -1,0 +1,103 @@
+@font-face {
+            font-family: roboto;
+            src: url("resorces/fonts/Roboto-Regular.ttf");
+
+        }
+
+        .carousel-indicators>button {
+            height: 20px !important;
+            width: 20px !important;
+            border-radius: 50%;
+            background: #000;
+        }
+
+        * {
+            font-family: roboto !important;
+            overflow-x: hidden;
+        }
+
+        #home {
+            background-image: url('./resorces/img/home_bg.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%, inherit;
+        }
+
+        #contect {
+            background-image: url('./resorces/img/contact_us_cmp.avif');
+            background-repeat: no-repeat;
+            background-size: 100% 100%, inherit;
+            background-position: top center;
+        }
+
+        form input,
+        textarea {
+            width: 100%;
+        }
+        .social-icon img,svg{
+            height:100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+        .app-benifit span{
+            width: 75% ;
+        }            
+        .custom-img-size{
+                width: 55px !important;
+            } 
+       
+        @media only screen and (max-width: 900px) {
+            .app-benifit p{
+                font-size: larger;
+                width: 90% !important;
+            }           
+
+            .custom-img-size{
+                width: 50px !important;
+            }            
+            .app-benifit span{
+                font-size: small !important;
+            }            
+            .app-benifit .phone_img{
+                width: 75% !important;
+            }            
+        }
+        
+        
+        @media only screen and (max-width: 600px) {
+            form{
+                margin: 2px !important;
+                width: 90%  !important;
+            }
+            form input,textarea {
+                width: 100% !important;
+                padding: 2px !important;
+            }
+            form div{
+                padding-left :  10px  !important;
+                padding-right : 10px  !important;
+            }
+            .app-benifit p{
+                font-size: large !important;
+                width: 95% !important;
+            }           
+
+            .app-benifit span{
+                font-size: small !important;
+                width: 75%;
+            }            
+            .custom-img-size{
+                width: 40px !important;
+            }            
+            .app-benifit .phone_img{
+                width: 75% !important;
+            }       
+            .social-icon img,svg{
+                height: 50px;
+                width:  50px;
+                border-radius: 50%;
+            }     
+            #About p{
+                font-size: smaller;
+            }
+        }
+        
